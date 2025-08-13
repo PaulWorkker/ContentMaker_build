@@ -10,6 +10,5 @@ set HOME=%USERPROFILE%
 @echo Обновление проекта ContentMaker ...
 @echo.
 git fetch
+@echo.
 git reset origin/master --hard
-
-pause >nul
